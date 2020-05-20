@@ -1,0 +1,66 @@
+.appContainer {
+  display: flex;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.filterTypesContainer,
+.table {
+  margin: 30px;
+}
+.filterTypesContainer > * {
+  margin-bottom: 30px;
+}
+.finishedInStock {
+  color: red;
+}
+.filterInput:focus {
+  outline: none;
+  box-shadow: 1px 1px 1px 1px #26474c;
+}
+
+.filterInput {
+  width: 180px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+table {
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px 1px #26474c;
+  thead {
+    .name {
+      background-color: #8299a1;
+    }
+    .price {
+      background-color: #b6d16a;
+    }
+  }
+  td {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+  }
+  th {
+    background-color: #26474c;
+    color: white;
+    padding: 10px;
+  }
+}
+button {
+  width: 180px;
+  height: 25px;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: brown;
+  color: white;
+  font-size: medium;
+  cursor: pointer;
+  box-shadow: 2px 1px 1px 1px gray;
+}
+button:active {
+  box-shadow: 0 0 0 0 white;
+}
+.checkbox {
+  cursor: pointer;
+}
