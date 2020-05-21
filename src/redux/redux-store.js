@@ -5,6 +5,5 @@ let reducers = combineReducers({
   tableReducer,
 });
 
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__;
-let store = createStore(reducers, composeEnhancers());
+let store = createStore(reducers);
 export default store;
